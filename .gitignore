@@ -213,3 +213,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+*.csproj
+*.unityproj
+*.sln
+*.dwlt
+*.asset
+*.dll
+*.mdb
