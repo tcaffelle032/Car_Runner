@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ProjectileTimer : MonoBehaviour {
 	public int Timer;
-	int timer;
+	float timer;
 	// Use this for initialization
 	void Start () {
 		timer = Timer;
@@ -11,8 +11,8 @@ public class ProjectileTimer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		timer--;
-
+		timer -= Time.deltaTime;
+		//Debug.Log(timer);
 		if(timer <= 0){
 			spawnProjectile();
 		}
@@ -22,6 +22,6 @@ public class ProjectileTimer : MonoBehaviour {
 		var projectile = GameObject.Instantiate(Resources.Load("Prefabs/Bullet"),
 		                                               new Vector3(-10,Random.Range(-4.0f,-2.0f),0),
 		                                               Quaternion.identity);
-		timer = Timer;
+		timer = Random.Range(0,Timer);
 	}
 }

@@ -4,6 +4,7 @@ using System.Collections;
 public class PlayerControls : MonoBehaviour {
 	Animator playerAnimation;
 	Vector3 playerStartPos;
+	public float JumpHeight;
 	// Use this for initialization
 	void Start () {
 		playerAnimation = this.gameObject.GetComponent<Animator>();	

@@ -15,6 +15,8 @@ public class BlockSpawner : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D collider){
 		if(collider.gameObject.name =="Ground")
 			GameManager.OnCreateFloor();
+		else if(collider.gameObject.name =="Player")
+			GameManager.OnRespawn();
 		/*var newGround = GameObject.Find("Ground");
 		var player = GameObject.Find("Player");
 			//if(collider.gameObject.name =="Ground")
