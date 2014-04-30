@@ -20,7 +20,7 @@ public class Treadmill : MonoBehaviour {
 	void Update () {
 		GameObject ground = GameObject.Find("Ground");
 
-		this.gameObject.transform.position += new Vector3(.15f,0,0);
+		this.gameObject.transform.position += new Vector3(.25f,0,0);
 
 		if(ground.transform.position.x <= ground.transform.transform.localScale.x - ground.transform.position.x){
 			//moreGround(player,ground,ground.transform.position);
