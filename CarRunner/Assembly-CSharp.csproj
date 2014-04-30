@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Cus Scripts\BlockDestroyer.cs" />
      <Compile Include="Assets\Cus Scripts\BlockSpawner.cs" />
+     <Compile Include="Assets\Cus Scripts\DeathFloor.cs" />
      <Compile Include="Assets\Cus Scripts\GameManager.cs" />
      <Compile Include="Assets\Cus Scripts\PlayerControls.cs" />
      <Compile Include="Assets\Cus Scripts\Treadmill.cs" />

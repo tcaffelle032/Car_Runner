@@ -3,9 +3,18 @@ using System.Collections;
 
 public class PlayerControls : MonoBehaviour {
 	Animator playerAnimation;
+	Vector3 playerStartPos;
 	// Use this for initialization
 	void Start () {
 		playerAnimation = this.gameObject.GetComponent<Animator>();	
+		playerStartPos = this.gameObject.transform.position;
+	}
+	void OnEnable(){
+		GameManager.RespawnPlayer += playerRespawn;
+	}
+
+	void OnDisable(){
+		GameManager.RespawnPlayer -= playerRespawn;
 	}
 	
 	// Update is called once per frame
@@ -33,6 +42,10 @@ public class PlayerControls : MonoBehaviour {
 			//Debug.Log("False");
 
 		}
+	}
+
+	void playerRespawn(){
+		this.gameObject.transform.position = playerStartPos;
 	}
 
 

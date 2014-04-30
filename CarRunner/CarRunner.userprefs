@@ -1,13 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Cus Scripts\BlockDestroyer.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Cus Scripts\PlayerControls.cs">
     <Files>
       <File FileName="Assets\Cus Scripts\BlockSpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets\Cus Scripts\BlockDestroyer.cs" Line="18" Column="2" />
+      <File FileName="Assets\Cus Scripts\BlockDestroyer.cs" Line="28" Column="32" />
       <File FileName="Assets\Cus Scripts\Treadmill.cs" Line="1" Column="1" />
-      <File FileName="Assets\Cus Scripts\PlayerControls.cs" Line="1" Column="1" />
-      <File FileName="Assets\Cus Scripts\GameManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Cus Scripts\BlockSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Cus Scripts\PlayerControls.cs" Line="17" Column="28" />
+      <File FileName="Assets\Cus Scripts\GameManager.cs" Line="25" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

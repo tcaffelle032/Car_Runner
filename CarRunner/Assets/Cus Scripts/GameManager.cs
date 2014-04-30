@@ -17,4 +17,12 @@ public static class GameManager{
 		if(DestroyOldFloor != null)
 			DestroyOldFloor(collider);
 	}
+
+	public delegate void PlayerRespawn();
+	public static event PlayerRespawn RespawnPlayer;
+	public static void OnRespawn(){
+		if(RespawnPlayer != null){
+			RespawnPlayer();
+		}
+	}
 }
