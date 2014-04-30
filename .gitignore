@@ -226,3 +226,6 @@ pip-log.txt
 *.mdb
 *.sln
 *.sln
+CarRunner/Temp/UnityLockfile
+CarRunner/CarRunner.sln
+CarRunner/CarRunner-csharp.sln
