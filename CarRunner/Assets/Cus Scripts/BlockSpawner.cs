@@ -23,4 +23,6 @@ public class BlockSpawner : MonoBehaviour {
 			GameObject.Destroy(collider.gameObject);*/
 
 	}
+
+
 }
