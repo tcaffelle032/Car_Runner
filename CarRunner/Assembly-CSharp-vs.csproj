@@ -52,6 +52,7 @@
      <Compile Include="Assets\Cus Scripts\GameManager.cs" />
      <Compile Include="Assets\Cus Scripts\PlayerControls.cs" />
      <Compile Include="Assets\Cus Scripts\Projectile.cs" />
+     <Compile Include="Assets\Cus Scripts\ProjectileTimer.cs" />
      <Compile Include="Assets\Cus Scripts\Treadmill.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />

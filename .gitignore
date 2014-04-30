@@ -229,3 +229,7 @@ pip-log.txt
 CarRunner/Temp/UnityLockfile
 CarRunner/CarRunner.sln
 CarRunner/CarRunner-csharp.sln
+CarRunner/Assembly-CSharp-vs.csproj
+CarRunner/Assembly-CSharp.csproj
+CarRunner/CarRunner-csharp.sln
+CarRunner/CarRunner.sln
