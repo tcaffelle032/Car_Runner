@@ -220,3 +220,5 @@ pip-log.txt
 *.asset
 *.dll
 *.mdb
+*.dll
+*.csproj
