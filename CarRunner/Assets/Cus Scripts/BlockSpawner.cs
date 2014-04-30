@@ -21,9 +21,9 @@ public class BlockSpawner : MonoBehaviour {
 		var player = GameObject.Find("Player");
 			//if(collider.gameObject.name =="Ground")
 		var treadmill = newGround.GetComponent<Treadmill>();
-		treadmill.moreGround(player,newGround,newGround.transform.position);
+		treadmill.moreGround(player,newGround,newGround.transform.position);*/
 
-			GameObject.Destroy(collider.gameObject);*/
+
 
 	}
 

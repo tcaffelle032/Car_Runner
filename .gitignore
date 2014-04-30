@@ -234,3 +234,5 @@ CarRunner/Assembly-CSharp.csproj
 CarRunner/CarRunner-csharp.sln
 CarRunner/CarRunner.sln
 CarRunner/CarRunner.userprefs
+CarRunner/Library/ScriptAssemblies/Assembly-CSharp.dll
+CarRunner/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
