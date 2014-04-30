@@ -41,8 +41,10 @@
 -define:UNITY_TEAM_LICENSE
 "Assets/Cus Scripts/BlockDestroyer.cs"
 "Assets/Cus Scripts/BlockSpawner.cs"
+"Assets/Cus Scripts/DeathFloor.cs"
 "Assets/Cus Scripts/GameManager.cs"
 "Assets/Cus Scripts/PlayerControls.cs"
+"Assets/Cus Scripts/Projectile.cs"
 "Assets/Cus Scripts/Treadmill.cs"
 -r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll"
 -r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll"

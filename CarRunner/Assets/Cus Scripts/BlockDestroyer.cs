@@ -21,7 +21,10 @@ public class BlockDestroyer : MonoBehaviour {
 	
 	}
 	void OnTriggerEnter2D(Collider2D collider){
-		GameManager.OnDestroyFloor(collider);
+		if(collider.gameObject.name =="Ground"){
+			GameManager.OnDestroyFloor(collider);
+		}
+		else Destroy(collider.gameObject);
 	}
 
 	void removeFloor(Collider2D collider){
