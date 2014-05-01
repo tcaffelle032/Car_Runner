@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerSpawner : MonoBehaviour {
+public class PlayerSpawn : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
