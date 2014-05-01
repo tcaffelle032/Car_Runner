@@ -25,14 +25,6 @@ public class ProjectileTimer : MonoBehaviour {
 		timer = Random.Range(0,Timer);
 	}
 
-	public void playerDied(){
-		StartCoroutine("playerDead");
-	}
-
-	IEnumerator playerDead(){
-		yield return new WaitForSeconds(3);
-		GameManager.OnRespawn();
-	}
 
 
 }
