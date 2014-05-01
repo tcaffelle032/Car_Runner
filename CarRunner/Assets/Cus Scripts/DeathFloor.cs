@@ -14,6 +14,8 @@ public class DeathFloor : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(){
+		var player = GameObject.Find("Player");
+		Destroy(player);
 		GameManager.OnRespawn();
 	}
 }
