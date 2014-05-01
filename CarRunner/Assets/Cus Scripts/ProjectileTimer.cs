@@ -19,9 +19,20 @@ public class ProjectileTimer : MonoBehaviour {
 	}
 
 	void spawnProjectile(){
-		var projectile = GameObject.Instantiate(Resources.Load("Prefabs/Bullet"),
+		 GameObject.Instantiate(Resources.Load("Prefabs/Bullet"),
 		                                               new Vector3(-10,Random.Range(-4.0f,-2.0f),0),
 		                                               Quaternion.identity);
 		timer = Random.Range(0,Timer);
 	}
+
+	public void playerDied(){
+		StartCoroutine("playerDead");
+	}
+
+	IEnumerator playerDead(){
+		yield return new WaitForSeconds(3);
+		GameManager.OnRespawn();
+	}
+
+
 }
